@@ -203,13 +203,19 @@ section {
     }
     h2 {
         font-size: 18px;
+        height: 45px;
     }
-    .content {
+    .content,
+    .portContent {
         width: 60%;
+        height: 950px;
     }
     #profPic {
         width: 90%;
         height: 85%;
+    }
+    .work {
+        margin: unset;
     }
 }
 
@@ -217,7 +223,8 @@ section {
     .headingAlign {
         width: unset;
     }
-    .content {
+    .content,
+    .portContent {
         width: 80%;
         font-size: 15px;
     }
@@ -225,13 +232,20 @@ section {
         width: 95%;
         height: 50%;
     }
+    .work {
+        margin: 10px;
+    }
 }
 
 @media only screen and (max-width: 980px) {
     .headingAlign {
         width: unset;
     }
-    .content {
+    .content,
+    .portContent {
         width: 70%;
+    }
+    .work {
+        margin: 20px;
     }
 }
