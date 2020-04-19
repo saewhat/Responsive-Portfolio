@@ -189,3 +189,49 @@ section {
     margin-top: 10px;
     margin-right: 25px;
 }
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: fixed;
+        top: 0;
+    }
+    .headingAlign {
+        width: unset;
+    }
+    a {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .content {
+        width: 60%;
+    }
+    #profPic {
+        width: 90%;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headingAlign {
+        width: unset;
+    }
+    .content {
+        width: 80%;
+        font-size: 15px;
+    }
+    #profPic {
+        width: 95%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .headingAlign {
+        width: unset;
+    }
+    .content {
+        width: 70%;
+    }
+}
