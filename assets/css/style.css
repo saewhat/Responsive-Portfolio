@@ -208,7 +208,10 @@ section {
     .content,
     .portContent {
         width: 60%;
-        height: 950px;
+        height: 70%;
+    }
+    .portContent {
+        height: 1050px;
     }
     #profPic {
         width: 90%;
@@ -216,6 +219,9 @@ section {
     }
     .work {
         margin: unset;
+    }
+    .conFooter {
+        margin-top: 27%;
     }
 }
 
