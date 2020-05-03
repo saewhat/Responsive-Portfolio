@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/webb-dark.png');
+    background-image: url('../images/skyscraper.png');
     background-color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
@@ -17,7 +17,7 @@ header {
     color: #777777;
     height: 100px;
     width: 100%;
-    border-bottom: 3px solid #777777;
+    border-bottom: 3px solid #4aaaa5;
 }
 
 .contact, .portfolio, .index {
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    background-color: #4aaaa5;
+    background-color: #b6b6b6;
     color: #ffffff;
     width: 19%;
     height: 40px;
@@ -130,9 +130,9 @@ h4 {
 
 footer {
     margin-top: 35px;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    color: #ffffff;
+    background-color: #eeeeee;
+    border-top: 4px solid #4aaaa5;
+    color: rgb(143, 143, 143);
     position: relative;
     bottom: 0;
     width: 100%;
