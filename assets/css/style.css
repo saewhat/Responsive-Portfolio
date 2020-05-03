@@ -20,7 +20,7 @@ header {
     border-bottom: 3px solid #777777;
 }
 
-a {
+.contact, .portfolio, .index {
     text-decoration: none;
     color: #777777;
     margin: 10px;
